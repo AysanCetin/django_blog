@@ -1,8 +1,16 @@
-from django.shortcuts import render
-from django.utils import timezone
-from .models import Gonderi
+from django.shortcuts import render, get_object_or_404
+from .models import Post
 
 
-def gonderi_listesi(request):
-    gonderiler= Gonderi.objects.filter(y_tarihi__lte=timezone.now()).order_by('y_tarihi')
-    return render(request, 'blog/gonderi_listesi.html', {'gonderiler':gonderiler})
+def post_list(request):
+    posts = Post.published.all()
+    return render(request, 'blog/post/ist.html', {'posts':posts})
+
+
+def post_detail(request, year, month, day, post):
+    post = get_object_or_404(Post, slag=post,
+                                   status='published'
+                                   publish_year = year,
+                                   publish_month = month,
+                                   publish_day = day)
+    return render(request, 'blog/post/detail.html', {'post':post})                               

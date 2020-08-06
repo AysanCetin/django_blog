@@ -1,11 +1,11 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 
-class Post(models.Model): 
-    
+class Post(models.Model):
+#    published = PublishedManager()
     STATUS_CHOICES = (
         ('draft','Draft'),
         ('published','Published')

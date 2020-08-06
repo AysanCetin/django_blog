@@ -20,3 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/',include('blog.urls')),
 ]
+
+
+# < div id = "sidebar" >
+#     < h2 > My Blog < / h2 >
+#     < p > This is my blog < / p >
+# < / div >

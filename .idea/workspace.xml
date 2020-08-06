@@ -9,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1fiPu7MLMPBIoalgvWGXwR4uTlB" />
   <component name="ProjectViewState">
@@ -45,10 +46,14 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="200" y="31" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1596698505654" />
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596698413903">
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596698718400">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1596698413903" />
+    <state x="306" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/57.27.1309.741@57.27.1309.741" timestamp="1596698718400" />
+    <state x="479" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596698620051">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="479" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/57.27.1309.741@57.27.1309.741" timestamp="1596698620051" />
     <state x="374" y="189" width="664" height="415" key="git4idea.merge.GitPullDialog" timestamp="1596698542418">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
